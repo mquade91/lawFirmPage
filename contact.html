@@ -1,15 +1,45 @@
 <DOCTYPE html>
 <html lang="en">	
 	<head>
-		<title>Lawyers R' Us - Contact </title>
-		<meta charset="UTF-8">
-		<!-- Helps with mobile devices -->
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<!-- Compiled and minified CSS -->
-  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	</head>	
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	  <title>Lawyers R' Us - Contact</title>
+
+	  <!-- CSS  -->
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 	<body>
-		<h1>Contact Form Goes Here</h1>
+	<div class="contact-form" class="container">
+		<!-- Name and Phone Number -->
+		<div class="row">
+			<form class="col s10">
+			  <div class="row">
+			    <div class="input-field col s5">
+			      <i class="material-icons prefix">account_circle</i>
+			      <input id="icon_prefix" type="text" class="validate">
+			      <label for="icon_prefix">First Name</label>
+			    </div>
+			    <div class="input-field col s5">
+			      <i class="material-icons prefix">phone</i>
+			      <input id="icon_telephone" type="tel" class="validate">
+			      <label for="icon_telephone">Telephone</label>
+			    </div>
+			  </div>
+			</form>
+		</div>
+<!-- Email -->
+		<div class="row">
+			<form class="col s10">
+				<div class="row">
+					<div class="input-field col s10">
+						<input id="email" type="email" class="validate">
+						<label for="email" data-error="wrong" data-success="right">Email</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>	        
 
 	</body>

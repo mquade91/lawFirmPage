@@ -15,6 +15,13 @@ p {
   line-height: 2rem;
 }
 
+.container {
+  text-align: center;
+  width:80%;
+  margin:auto;
+  border: solid black 10px;
+}
+
 .button-collapse {
   color: #26a69a;
 }
