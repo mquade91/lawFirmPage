@@ -3,6 +3,8 @@
 
 TODO: 
 
+CONVERT FILE STRUCTURE TO MVC
+
 Front End:
 Pages Built utilizing Materialize 
 -Add Header and Footer to Contact and About Page
